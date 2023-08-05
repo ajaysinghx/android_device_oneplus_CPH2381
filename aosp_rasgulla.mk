@@ -12,13 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/rasgulla/device.mk)
 
 # Inherit some common LineageOS Stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_rasgulla
+PRODUCT_NAME := aosp_rasgulla
 PRODUCT_DEVICE := rasgulla
 PRODUCT_BRAND := OnePlus
-PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MANUFACTURER := oppo
+PRODUCT_MODEL := OnePlus Nord ce 2 lite 5g
 
 # Is this required?
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
