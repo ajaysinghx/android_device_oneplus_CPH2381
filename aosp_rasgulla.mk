@@ -24,3 +24,7 @@ PRODUCT_MODEL := OnePlus Nord ce 2 lite 5g
 # Is this required?
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := OnePlus/rasgulla/OP535DL1:13/TP1A.220905.001/S.202212211800:user/release-keys
+
+
