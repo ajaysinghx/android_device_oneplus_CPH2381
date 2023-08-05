@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rasgulla.mk
+    $(LOCAL_DIR)/aosp_rasgulla.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rasgulla-user \
-    lineage_rasgulla-userdebug \
-    lineage_rasgulla-eng
+    aosp_rasgulla-user \
+    aosp_rasgulla-userdebug \
+    aosp_rasgulla-eng
