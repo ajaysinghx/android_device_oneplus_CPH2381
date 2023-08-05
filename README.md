@@ -1,4 +1,4 @@
-Copyright (C) 2023 The LineageOS Project
+Copyright (C) 2023 The Pixel experience  13 Project
 
 Device configuration for OnePlus Nord CE 2 Lite 5G
 =========================================
