@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oneplus/rasgulla
+DEVICE_PATH := device/oneplus/CPH2381
 
 # A/B
 AB_OTA_UPDATER := true
@@ -246,4 +246,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
-# include vendor/oneplus/rasgulla/BoardConfigVendor.mk
+include vendor/oneplus/CPH2381/BoardConfigVendor.mk
