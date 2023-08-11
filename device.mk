@@ -492,6 +492,6 @@ PRODUCT_PACKAGES += \
     WfdCommon
 
 # Inherit the proprietary files
-#include vendor/oneplus/CPH2381/CPH2381-vendor.mk
+include vendor/oneplus/CPH2381/CPH2381-vendor.mk
 
 
