@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rasgulla.mk
+    $(LOCAL_DIR)/aosp_CPH2381.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_rasgulla-user \
-    aosp_rasgulla-userdebug \
-    aosp_rasgulla-eng
+    aosp_CPH2381-user \
+    aosp_CPH2381-userdebug \
+    aosp_CPH2381-eng
